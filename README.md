@@ -41,7 +41,7 @@ Pasos para configurar el trabajo local:
 5. Una vez clonado, abran la carpeta del repositorio con Visual Studio Code (pueden hacerlo directamente desde GitHub Desktop o manualmente).
 6. En Visual Studio Code, instalen la extensión para Java: vayan a la sección de extensiones (ícono de bloques en la barra lateral), busquen "Extension Pack for Java" de Microsoft e instálenla. Esto configurará el entorno para Java.
 
-Flujo de 작업 normal de manera local:
+Flujo de trabajo normal de manera local:
 - Editen y escriban código en Visual Studio Code.
 - Prueben y ejecuten el código directamente en VS Code (usando el depurador o la terminal integrada).
 - Para sincronizar cambios: Guardar los archivos, hacer commit de los cambios en GitHub Desktop (agreguen un mensaje descriptivo), y luego pulsen "Push origin" para subir los cambios al repositorio remoto en GitHub.
