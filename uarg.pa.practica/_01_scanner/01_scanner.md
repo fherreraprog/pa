@@ -1,6 +1,6 @@
-# Uso de la clase Scanner en Programación de Algoritmos
+# Uso de la clase Scanner
 
-La clase `Scanner` te permite leer datos que el usuario ingresa por teclado, como números o palabras, y es una herramienta sencilla para tus primeros programas en Java. En esta materia, usarás `Scanner` para escribir algoritmos básicos y pasar de pseudocódigo a código en Java.
+La clase `Scanner` te permite leer datos que el usuario ingresa por teclado, como números o palabras, y es una herramienta sencilla para tus programas en Java. En esta materia, usarás `Scanner` para escribir tu código en Java.
 
 ## 1. **Importar la clase Scanner**
 Para usar `Scanner`, incluye esta línea al inicio de tu programa:
