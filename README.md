@@ -1,63 +1,72 @@
 # Bienvenidos a la Práctica de Programación de Algoritmos
 
-¡Hola a todos! En esta materia trabajaremos con **GitHub Codespaces**, un entorno completamente configurado para que puedan concentrarse únicamente en lo más importante: aprender y practicar programación de algoritmos.
+¡Hola a todos! En esta materia trabajaremos combinando **GitHub Codespaces** con **Classroom50** (`classroom50.org`), la plataforma que usamos para la entrega y corrección automática de los trabajos prácticos. El entorno está completamente preconfigurado para que se concentren únicamente en lo más importante: aprender y practicar programación de algoritmos.
 
 ## 🚀 ¿Por qué GitHub Codespaces?
 
-GitHub Codespaces nos permite trabajar en un entorno de desarrollo listo para usar, directamente desde la nube. Algunas ventajas de utilizar esta herramienta son:
-- **Sin configuración compleja**: Todo está preconfigurado, lo que elimina la necesidad de instalar herramientas adicionales en sus computadoras.
-- **Entorno real de desarrollo**: Trabajaremos con herramientas profesionales utilizadas en la industria, lo que los prepara para futuros proyectos y empleos.
-- **Portabilidad**: Pueden acceder a su workspace desde cualquier dispositivo con conexión a Internet.
-- **Colaboración**: GitHub facilita la colaboración en proyectos.
+Codespaces nos da un entorno de desarrollo listo para usar, directamente desde la nube:
 
-## 🔒 Repositorios Privados y Feedback
+- **Sin configuración compleja**: todo viene preconfigurado (JDK, extensión de Java), así que no necesitan instalar nada en su computadora para empezar.
+- **Entorno real de desarrollo**: trabajan con las mismas herramientas que se usan en la industria.
+- **Portabilidad**: acceden a su workspace desde cualquier dispositivo con conexión a Internet.
+- **Foco en el aprendizaje**: el entorno viene sin asistentes de código basados en IA (Copilot y sugerencias inline deshabilitados). La idea es que primero construyan su propio criterio para resolver problemas; ya habrá tiempo para incorporar esas herramientas más adelante.
 
-Cada estudiante trabajará en un repositorio privado, que será creado a través de un **assignment** en [GitHub Classroom](https://classroom.github.com/). Estos repositorios serán accesibles únicamente por los profesores para garantizar:
-- **Feedback personalizado**: Podremos revisar código y proporcionarles observaciones detalladas sobre su trabajo.
-- **Privacidad**: Sus proyectos serán visibles solo para ustedes y el equipo docente.
+> ⚠️ **Uso responsable de las horas de Codespaces:** las cuentas tienen un límite de horas gratuitas por mes. Cuando terminen de trabajar, **detengan el Codespace** (no alcanza con cerrar la pestaña) para no consumir horas de más. Si prefieren no pensar en esto, pueden trabajar de forma local siguiendo la guía [`TRABAJO_LOCAL.md`](./uarg.pa.practica/TRABAJO_LOCAL.md).
 
-Es fundamental que tengan una cuenta activa en [GitHub](https://github.com/) para participar y acceder a sus repositorios asignados.
+## 🔒 Repositorios y Feedback
 
-## 🖥️ Modalidad de Trabajo
+Cada estudiante trabaja en su propio repositorio privado, creado a partir de una invitación en **Classroom50**. Solo ustedes y el equipo docente tienen acceso, lo que nos permite:
 
-Utilizaremos el esquema de **workspaces** organizado por los diferentes trabajos prácticos. Este esquema les guiará a través de las actividades prácticas, mientras aplican los conceptos aprendidos en clase.
+- **Feedback personalizado**: revisamos su código y les dejamos observaciones puntuales.
+- **Privacidad**: su trabajo no es visible para el resto de la clase.
+
+Necesitan una cuenta activa en [GitHub](https://github.com/) para aceptar la invitación y acceder a su repositorio.
+
+## 📌 La Regla de Oro
+
+Para que el corrector automático pueda evaluar sus entregas, **no modifiquen la estructura de carpetas, los `package` ni los nombres de los archivos de test** que vienen en el template. El trabajo consiste en completar el código dentro de las secciones marcadas con:
+
+```java
+// --- TU CÓDIGO AQUÍ ---
+```
+
+## 🗂️ Estructura del repositorio
+
+Dentro de `uarg.pa.practica` van a encontrar una carpeta por cada tema, en orden progresivo (`_01_scanner`, `_02_tipos_de_datos_operadores`, `_03_estructuras_de_control`, etc.). Cada carpeta incluye un `.md` con la consigna y los archivos `.java` sobre los que van a trabajar.
+
+## 📊 Cómo revisar su puntaje (Autograde)
+
+Cada `git push` dispara la corrección automática de la cátedra. Para ver el resultado:
+
+1. Entren a [classroom50.org](https://classroom50.org/).
+2. En su panel de entregas van a ver el puntaje del TP (por ejemplo: `classroom50 autograde: 50/100`).
+3. Hagan clic en **"View grade"** para ver el detalle de la entrega.
+4. En la sección **"Failure details"** van a encontrar, para cada ejercicio fallido, qué método falló, qué valor esperaba la cátedra y qué valor devolvió su programa. Usen esa información para corregir y volver a intentar.
 
 ## 📌 Objetivos
 
-Nuestro objetivo principal es que, además de aprender los fundamentos de la programación de algoritmos, se familiaricen con:
+Además de los fundamentos de programación de algoritmos, buscamos que se familiaricen con:
+
 - **Flujos de trabajo modernos** en Git y GitHub.
-- **Herramientas de desarrollo profesional**, como entornos preconfigurados.
-- **Buenas prácticas** de programación y trabajo colaborativo.
+- **Herramientas de desarrollo profesional** y entornos preconfigurados.
+- **Buenas prácticas** de programación, documentación y trabajo colaborativo.
 
-## 💻 Trabajo Local con GitHub Desktop (Opcional)
+## 💻 ¿Prefieren trabajar de forma local?
 
-Si prefieren trabajar de manera local en lugar de usar Codespaces, pueden hacerlo utilizando GitHub Desktop. Esto requiere algunos prerrequisitos y pasos iniciales. **Prerrequisitos**: Asegúrense de tener instalados Visual Studio Code y el JDK (Java Development Kit) en su computadora.
+Si quieren programar sin conexión o simplemente administrar mejor sus horas de Codespaces, preparamos una guía paso a paso con la instalación y configuración del mismo entorno (JDK, VS Code y extensiones) que usa Codespaces:
 
-Pasos para configurar el trabajo local:
-1. Inicien sesión en GitHub Desktop con la misma cuenta de GitHub con la que aceptaron la asignación en GitHub Classroom.
-2. Vayan al repositorio asignado en su navegador (en github.com).
-3. Hagan clic en el botón "Code" (Código), luego en la pestaña "Local" y seleccionen "Open with GitHub Desktop" (Abrir con GitHub Desktop). Esto abrirá GitHub Desktop y les pedirá clonar el repositorio.
-4. Clonen el repositorio en una carpeta local de su elección.
-5. Una vez clonado, abran la carpeta del repositorio con Visual Studio Code (pueden hacerlo directamente desde GitHub Desktop o manualmente).
-6. En Visual Studio Code, instalen la extensión para Java: vayan a la sección de extensiones (ícono de bloques en la barra lateral), busquen "Extension Pack for Java" de Microsoft e instálenla. Esto configurará el entorno para Java.
-
-Flujo de trabajo normal de manera local:
-- Editen y escriban código en Visual Studio Code.
-- Prueben y ejecuten el código directamente en VS Code (usando el depurador o la terminal integrada).
-- Para sincronizar cambios: Guardar los archivos, hacer commit de los cambios en GitHub Desktop (agreguen un mensaje descriptivo), y luego pulsen "Push origin" para subir los cambios al repositorio remoto en GitHub.
-- Para actualizar con cambios remotos (si hay feedback o actualizaciones): Pulsen "Pull origin" en GitHub Desktop antes de empezar a trabajar.
-
-Este flujo permite trabajar offline y sincronizar cuando estén conectados, manteniendo el repositorio actualizado para revisiones.
+👉 [**Guía de Trabajo Local**](./uarg.pa.practica/TRABAJO_LOCAL.md)
 
 ## 🗣️ Consultas y soporte
 
-Si tienen alguna duda o consulta, no duden en contactarnos a través del feedback en el repositorio (usando issues o comentarios en pull requests) o por el foro de unpabimodal en https://unpabimodal.unpa.edu.ar/. Estaremos disponibles para resolver sus inquietudes y apoyarlos durante la cursada.
+Ante cualquier duda, contáctennos a través del feedback en el repositorio (comentarios en pull requests o abriendo un *Issue*) o por el foro de UNPA Bimodal: <https://unpabimodal.unpa.edu.ar/>. Estamos disponibles para resolver sus inquietudes durante toda la cursada.
+Tambien los envitamos a unirse al canal de [Discord](https://discord.gg/gDeCBtzQ66)
 
 ---
 
-¡Les deseamos una excelente cursada!  
-Atentamente,  
-**Lic. Franco Herrera**  
-**Mg. Mirta Miranda**  
-**Lic. Fernanda Oyarzo**  
-Profesores de Práctica de Programación de Algoritmos
+¡Les deseamos una excelente cursada!
+Atentamente,
+**Lic. Franco Herrera**
+**Mg. Mirta Miranda**
+**Lic. Fernanda Oyarzo**
+*Profesores de Práctica de Programación de Algoritmos*
