@@ -10,7 +10,7 @@ Antes de empezar, instalen:
 2. **JDK 17** — la misma versión que usa el Codespace. Pueden instalar la distribución [Eclipse Temurin 17](https://adoptium.net/temurin/releases/?version=17).
 3. **Visual Studio Code** — [code.visualstudio.com](https://code.visualstudio.com/)
 4. **Extension Pack for Java** (de Microsoft) — se instala desde VS Code, en la sección de extensiones (ícono de bloques en la barra lateral). Es la misma extensión que trae preinstalada el Codespace, no hace falta ninguna otra.
-5. (Opcional) **GitHub Desktop** — [desktop.github.com](https://desktop.github.com/), si prefieren manejar Git con interfaz gráfica en lugar de la terminal.
+5. **GitHub Desktop** — [desktop.github.com](https://desktop.github.com/), si prefieren manejar Git con interfaz gráfica en lugar de la terminal.
 
 ## Paso a paso
 
