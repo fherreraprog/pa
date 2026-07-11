@@ -1,3 +1,5 @@
+<img width="2064" height="512" alt="Gemini_Generated_Image_5y07wb5y07wb5y07" src="https://github.com/user-attachments/assets/887941e8-02a8-4831-9225-f0c24ced788f" />
+
 # Bienvenidos a la Práctica de Programación de Algoritmos
 
 ¡Hola a todos! En esta materia trabajaremos combinando **GitHub Codespaces** con **Classroom50** (`classroom50.org`), la plataforma que usamos para la entrega y corrección automática de los trabajos prácticos. El entorno está completamente preconfigurado para que se concentren únicamente en lo más importante: aprender y practicar programación de algoritmos.
