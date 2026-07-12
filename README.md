@@ -13,7 +13,7 @@ Codespaces nos da un entorno de desarrollo listo para usar, directamente desde l
 - **Portabilidad**: acceden a su workspace desde cualquier dispositivo con conexión a Internet.
 - **Foco en el aprendizaje**: el entorno viene sin asistentes de código basados en IA (Copilot y sugerencias inline deshabilitados). La idea es que primero construyan su propio criterio para resolver problemas; ya habrá tiempo para incorporar esas herramientas más adelante.
 
-> ⚠️ **Uso responsable de las horas de Codespaces:** las cuentas tienen un límite de horas gratuitas por mes. Cuando terminen de trabajar, **detengan el Codespace** (no alcanza con cerrar la pestaña) para no consumir horas de más. Si prefieren no pensar en esto, pueden trabajar de forma local siguiendo la guía [`TRABAJO_LOCAL.md`](./uarg.pa.practica/TRABAJO_LOCAL.md).
+> ⚠️ **Uso responsable de las horas de Codespaces:** las cuentas tienen un límite de horas gratuitas por mes. Cuando terminen de trabajar, **detengan el Codespace** (no alcanza con cerrar la pestaña) para no consumir horas de más.
 
 ## 🔒 Repositorios y Feedback
 
@@ -34,7 +34,7 @@ Para que el corrector automático pueda evaluar sus entregas, **no modifiquen la
 
 ## 🗂️ Estructura del repositorio
 
-Dentro de `uarg.pa.practica` van a encontrar una carpeta por cada tema, en orden progresivo (`_01_scanner`, `_02_tipos_de_datos_operadores`, `_03_estructuras_de_control`, etc.). Cada carpeta incluye un `.md` con la consigna y los archivos `.java` sobre los que van a trabajar.
+Dentro de `uarg.pa.practica` van a encontrar una carpeta con material preparado de práctica para consultar (`_01_scanner`, `_02_tipos_de_datos_operadores`, `_03_estructuras_de_control`, etc.). Cada carpeta incluye un `.md` con exlicaciones y los ejemplos archivos `.java`.
 
 ## 📊 Cómo revisar su puntaje (Autograde)
 
