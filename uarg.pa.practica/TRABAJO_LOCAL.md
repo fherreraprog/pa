@@ -44,7 +44,7 @@ Ambos deberían indicar la versión 17. Si VS Code no lo detecta solo, vayan a l
 
 ### 5. Ubicar su trabajo práctico
 
-Dentro de `uarg.pa.practica` van a encontrar una carpeta por tema (`_01_scanner`, `_02_tipos_de_datos_operadores`, etc.). Cada una tiene su consigna en un `.md` y los archivos `.java` a completar.
+Dentro del respositorio van a encontrar un carpeta `src` con los archivos `.java` a completar. En la raiz del proyecto estan las consignas del trabajo en un archivo un `.md` 
 
 **No modifiquen** la estructura de carpetas, los `package` ni el nombre de los archivos de test: el corrector automático depende de que se mantengan intactos. Trabajen únicamente dentro de las secciones marcadas con:
 ```java
@@ -88,4 +88,4 @@ En Codespaces, Copilot y las sugerencias inline vienen deshabilitados a propósi
 
 Los inconvenientes más comunes son versión de JDK incorrecta o el `PATH` mal configurado. Si `java -version` no muestra la versión 17, revisen que el JDK instalado esté correctamente agregado al `PATH` de su sistema operativo, o reinstalen usando el instalador de Temurin, que lo configura automáticamente.
 
-Para cualquier otra consulta, usen los mismos canales que en el resto de la cursada: comentarios en pull requests, *Issues* del repositorio, o el foro de UNPA Bimodal: <https://unpabimodal.unpa.edu.ar/>.
+Para cualquier otra consulta, usen los mismos canales que en el resto de la cursada.
