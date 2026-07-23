@@ -1,4 +1,4 @@
-# Guía de Trabajo Local
+# Guía de Trabajo   Local
 
 Esta guía es para quienes prefieren trabajar sin Codespaces: ya sea para programar sin conexión, ahorrar horas de Codespaces, o porque les resulta más cómodo trabajar en su propia máquina. El objetivo es reproducir localmente el mismo entorno que usamos en la nube, para que el corrector automático de Classroom50 evalúe su código sin sorpresas.
 
