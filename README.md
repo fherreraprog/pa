@@ -61,7 +61,7 @@ Si quieren programar sin conexión o simplemente administrar mejor sus horas de 
 
 ## 🗣️ Consultas y soporte
 
-Ante cualquier duda, contáctennos a través del feedback en el repositorio (comentarios en pull requests o abriendo un *Issue*) o por el foro de UNPA Bimodal: <https://unpabimodal.unpa.edu.ar/>. Estamos disponibles para resolver sus inquietudes durante toda la cursada.
+Ante cualquier duda, contáctennos a través del feedback en el repositorio o por el foro de UNPA Bimodal: <https://unpabimodal.unpa.edu.ar/>. Estamos disponibles para resolver sus inquietudes durante toda la cursada.
 Tambien los envitamos a unirse al canal de [Discord](https://discord.gg/gDeCBtzQ66)
 
 ---
