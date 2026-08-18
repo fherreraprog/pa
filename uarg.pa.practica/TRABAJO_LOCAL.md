@@ -10,7 +10,7 @@ Antes de empezar, instalen:
 2. **JDK 17** — la misma versión que usa el Codespace. Pueden instalar la distribución [Eclipse Temurin 17](https://adoptium.net/temurin/releases/?version=17).
 3. **Visual Studio Code** — [code.visualstudio.com](https://code.visualstudio.com/)
 4. **Extension Pack for Java** (de Microsoft) — se instala desde VS Code, en la sección de extensiones (ícono de bloques en la barra lateral). Es la misma extensión que trae preinstalada el Codespace, no hace falta ninguna otra.
-5. **GitHub Desktop** — [desktop.github.com](https://desktop.github.com/), si prefieren manejar Git con interfaz gráfica en lugar de la terminal.
+5. **GitHub Desktop** — [desktop.github.com](https://desktop.github.com/).
 
 ## Paso a paso
 
@@ -23,11 +23,6 @@ Ingresen a [classroom50.org](https://classroom50.org/) con su cuenta de GitHub y
 **Con GitHub Desktop:**
 - Vayan al repositorio en github.com, botón **Code → Local → Open with GitHub Desktop**.
 - Elijan una carpeta local y clonen.
-
-**Con terminal:**
-```bash
-git clone https://github.com/<su-usuario>/<su-repositorio>.git
-```
 
 ### 3. Abrir el proyecto en VS Code
 
@@ -61,12 +56,6 @@ Escriban su código en VS Code y ejecútenlo o depúrenlo con el botón **Run/De
 - Revisen los cambios, escriban un mensaje de commit descriptivo y hagan clic en **Commit**.
 - Luego **Push origin** para subir los cambios.
 
-**Con terminal:**
-```bash
-git add .
-git commit -m "feat: completar ejercicio de scanner"
-git push
-```
 > Recuerden usar el estándar de mensajes de commit visto en clase (tipo + descripción en modo imperativo).
 
 ### 8. Revisar el autograde
